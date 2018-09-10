@@ -31,15 +31,15 @@
     if ($("#mainNav").offset().top > 100) {
       
       $('.logo-image').addClass('logo-image-small',500);
-      $('.logo-image').attr('src','./img/logos/logo-white.png');
-      $('.logo-text').attr('src','./img/logos/logo-white-text.png');
+      //$('.logo-image').attr('src','./img/logos/logo-white.png');
+      //$('.logo-text').attr('src','./img/logos/logo-white-text.png');
       $("#mainNav").addClass("navbar-shrink");
 
     } else {
       
       $('.logo-image').removeClass('logo-image-small',500);
-      $('.logo-image').attr('src','./img/logos/logo.png');
-      $('.logo-text').attr('src','./img/logos/logo-text.png');
+      //$('.logo-image').attr('src','./img/logos/logo.png');
+      //$('.logo-text').attr('src','./img/logos/logo-text.png');
       $("#mainNav").removeClass("navbar-shrink");
     }
   };

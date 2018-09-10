@@ -7,14 +7,14 @@
 }
 
 .logo-image {
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
   transition: transform .2s;
 }
 
 .logo-image-small {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 /* Make the image fully responsive */
@@ -25,7 +25,7 @@
 }
 
 .services_banner {
-   margin-top: -250px;
+   margin-top: -230px;
 }
 
 .services-banner-img-container {
@@ -37,11 +37,11 @@
 
 .service-banner-img {
   width: 100%;
-  height: 250px;
+  height: 230px;
   object-fit: cover;
   display: block;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+  /* filter: grayscale(100%); */
   transition: transform .3s;
 }
 
@@ -60,7 +60,7 @@
 
 .service-banner-img-text--sub {
   text-transform: capitalize;
-  font-size: 13px;
+  font-size: 17px;
   display: inline-block;
   font-weight: normal;
 }
@@ -70,8 +70,8 @@
 }
 
 .services-banner-img-container:hover .service-banner-img {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
+  /* -webkit-filter: grayscale(0%); Safari 6.0 - 9.0 */
+  /* filter: grayscale(0%); */
   transform: scale(1.3);
 }
 
@@ -161,12 +161,12 @@
   margin: auto;
 }
 
-.service-col:hover {
+/* .service-col:hover {
   box-shadow: 0 0 5px #777;
   border-radius: 10px;
   z-index: 10;
   transition: box-shadow .3s ease-in;
-}
+} */
 
 .service-col-img {
   height: 200px;
@@ -200,30 +200,139 @@
   background-color: #ffffff;
   box-shadow: 0 0 2px #cccccc;
   padding: 0;
+  height: 50px;
+  overflow: hidden;
 }
 
 .partners-img-content {
-  height: 100px;
-  line-height: 100px;
-  margin: 5px;
   cursor: pointer;
-  overflow: hidden;
 } 
 
 .partners-img-content img {
-  display:inline-block;
-  vertical-align: middle;
-  transition: all 2s;
+  height: 30px;
+  margin: 10px;
 } 
-
-.partners-content:hover .partners-img-content img{
-  /* -webkit-transform: rotateY(360deg);
-  transform: rotateY(360deg); */
-  transform: scale(1.3);
-}
 
 .modal-dialog {
   font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#services .fas {
+  color: #1CA8F3;
+}
+
+/* .navbar-transparent {
+  background-color: transparent !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  text-shadow: 0 0 1px #000;
+} */
+
+.quick-link-text {
+  margin-top: 10px;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+#quick-links {
+  margin-top: -100px;
+  margin-bottom: -130px;
+}
+
+.quick-link-text span {
+  color: #999999;
+  font-weight: bold;
+}
+
+.quick-links-row {
+  border-bottom: 2px solid #eeeeee;
+}
+
+.quick-links-heading {
+  margin-top: 30px;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 30px;
+  color: #FDA856;
+}
+
+.mobile-app-image {
+  width: 80%;
+  object-fit: cover;
+}
+
+.play-store-button {
+  width: 220px;
+  cursor: pointer;
+}
+
+.mobile-app-text-div {
+  margin-top: 10%;
+}
+
+#mobile-app {
+  background-image: url("../img/app/mobile-app-background.jpeg");
+  background-size: cover;
+}
+
+footer {
+  background-color: #444444;
+  color: #fff;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  padding: 25px 0 0;
+}
+
+footer a {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+footer h4 {
+  font-size: 15px;
+}
+
+footer p {
+  font-size: 13px;
+}
+
+.footer-content {
+  text-align: left;
+}
+
+footer .social-icons {
+  font-size: 30px;
+  margin: 10px 10px 30px;
+}
+
+.footer-bottom {
+  background-color: #323232;
+  padding: 15px;
+}
+
+#numbers {
+  background-image:url("../img/service/blue-background.jpeg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.quick-numbers-text {
+  padding: 10px;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+
+.quick-numbers-text span {
+  font-size: 28px;
+  color: #ccc;
+  font-weight: bold;
 }
 
 @media (max-width: 411px) {
