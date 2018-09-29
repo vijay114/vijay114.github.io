@@ -34,11 +34,18 @@
 
 .nav-item--highlight {
   background-color: #1CA8F3;
+  border-radius: 35px;
+  box-shadow: 0 0 5px #777;
+  transition: all ease-in .2s;
 }
 
 .nav-item--highlight:hover {
-  transition: transform .2s;
-  background-color: #ffffff;
+  transition: all ease-in .2s;
+  box-shadow: 0 0 20px #777777;
+}
+
+.nav-link:hover {
+  color: #eeeeee !important;
 }
 
 .nav-link span{
@@ -55,7 +62,7 @@
 }
 
 .services_banner {
-   margin-top: -230px;
+  margin-top: -260px;
 }
 
 .services_banner .container {
@@ -70,12 +77,8 @@
 }
 
 .service-banner-img {
-  width: 100%;
-  height: 170px;
-  object-fit: cover;
-  display: block;
-  /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
-  /* filter: grayscale(100%); */
+  width: 200px;
+  height: 200px;
   transition: transform .3s;
 }
 
@@ -101,12 +104,18 @@
 
 .services-banner-img-container {
   cursor: pointer;
+  background-color: orange;
+  height: 175px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #777;
+  transition: all .2s ease-in;
 }
 
-.services-banner-img-container:hover .service-banner-img {
-  /* -webkit-filter: grayscale(0%); Safari 6.0 - 9.0 */
-  /* filter: grayscale(0%); */
-  transform: scale(1.3);
+.services-banner-img-container:hover {
+  box-shadow: 0 0 20px #777;
+  margin-top: -5px;
+  transition: all .2s ease-in;
+
 }
 
 @keyframes rotate-service-banner-img-text-bg {
@@ -125,21 +134,21 @@
   display: none;
 }  
 
-.services-banner-img-container:hover .service-banner-img-text-bg {
+/* .services-banner-img-container:hover .service-banner-img-text-bg {
   display: block;
   animation-name: rotate-service-banner-img-text-bg;
   animation-duration: 0.3s;
   width: 85%; height: 85%;
-}
+} */
 
 .service-banner-content--odd {
-  background-color: #000000;
+  /* background-color: #000000; */
   color: #ffffff;
   text-align: center;
 }
 
 .service-banner-content--even {
-  background-color: #212529;
+  /* background-color: #212529; */
   color: #ffffff;
   text-align: center;
 }
