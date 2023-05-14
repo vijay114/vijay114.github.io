@@ -1276,6 +1276,9 @@ body .body-overlay {
     font-weight: 300;
     margin-bottom: 60px;
 }
+.contact-area .contact-content h3 a{
+    color: var(--primary_color);
+}
 .contact-area .contact-content #required-msg {
     color: #fc4545;
     font-size: 14px;
