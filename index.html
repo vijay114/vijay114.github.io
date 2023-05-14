@@ -1,504 +1,865 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay - Portfolio</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Borrow Tree</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Custom styles for this template -->
-    <link href="css/agency.css" rel="stylesheet">
-
-    <!-- Animate css -->
-    <link href="vendor/wow/animate.css" rel="stylesheet">
-
-    <!-- Application CSS -->
-    <link href="css/style.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-transparent fixed-top" data-wow-delay="0.5s" id="mainNav">
-      <div class="container-fluid">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <img class="logo-image" src="img/logos/logo-png-white.png" alt="Logo"/>
-          <!-- <img class="logo-text" src="img/logos/logo-text.png" alt="Borrow Tree" width="200" height="33"/> -->
-        </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#"><span><i class="fas fa-map-marker-alt"></i></span>Track Your Application</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#"><span></span>About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="/blog"><span></span>Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#"><span></span>Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#"><span><i class="fas fa-phone"></i></span>1800 3131 484</a>
-            </li>
-            <li class="nav-item nav-item--highlight">
-              <a class="nav-link js-scroll-trigger" data-toggle="modal" data-target="#loginModal"><span><i class="fas fa-sign-in-alt"></i></span>Log in</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Header -->
-    <header>
-
-      <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators wow fadeInUp animated" data-wow-delay="0.5s">
-          <!-- <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li> -->
-        </ul>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/header/banner-1.jpeg" alt="Los Angeles" width="1100" height="500">
-            <!-- <div class="carousel-caption wow zoomIn animated" data-wow-delay="0.5s">
-              <h3>Nunc massa sem, tristique a purus in</h3>
-              <p>Fusce at nibh sapien. Donec aliquet, erat ut feugiat ultricies</p>
-            </div>    -->
-          </div>
-          <!-- <div class="carousel-item">
-            <img src="img/header/banner-2.jpeg" alt="Chicago" width="1100" height="500">
-            <div class="carousel-caption wow zoomIn animated" data-wow-delay="0.5s">
-              <h3>Lorem ipsum dolor sit amet</h3>
-              <p>Aliquam luctus dui lorem, eget euismod enim molestie at</p>
-            </div>   
-          </div>
-          <div class="carousel-item">
-            <img src="img/header/banner-3.jpeg" alt="New York" width="1100" height="500">
-            <div class="carousel-caption wow zoomIn animated" data-wow-delay="0.5s">
-              <h3>Nulla cursus facilisis dui quis gravida</h3>
-              <p>Aliquam hendrerit mattis sem, non scelerisque nisi condimentum quis</p>
-            </div>   
-          </div> -->
-        </div>
-        <a class="carousel-control-prev wow fadeInLeft animated" data-wow-delay="0.5s" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next wow fadeInRight animated" data-wow-delay="0.5s" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
 
 
 
-      <!-- <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">Welcome To Our Studio!</div>
-          <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-        </div>
-      </div> -->
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
-    </header>
+    <!-- Stylesheet -->
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/smooth-scrollbar.css">
+    <link rel="stylesheet" href="./assets/css/lightbox.min.css">
 
-    <section id="services_banner" class="services_banner no-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="service-banner-content--odd wow fadeInUp animated" data-wow-delay="0.5s">
-                <div class="services-banner-img-container" style="background-color: #5353A1">
-                  <!-- <img src="img/service/green-background.jpeg" alt="Home Loan" class="img-responsive service-banner-img"> -->
-                  <div class="service-banner-img-text">
-                      <i class="fas fa-home fa-3x"></i>
-                      <span class="service-banner-img-text--sub">Home Loan</span>
-                  </div>
-                  <div class="service-banner-img-text-bg"></div>
-                </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            
-            <div class="service-banner-content--even wow fadeInUp animated" data-wow-delay="0.5s">
-              <div class="services-banner-img-container" style="background-color: #F94080">
-                <!-- <img src="img/service/yellow-background.jpeg" alt="Personal Loan" class="img-responsive service-banner-img"> -->
-                <div class="service-banner-img-text">
-                    <i class="fas fa-rupee-sign fa-3x"></i>
-                    <span class="service-banner-img-text--sub">Personal Loan</span>
-                </div>
-                <div class="service-banner-img-text-bg"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            
-            <div class="service-banner-content--odd wow fadeInUp animated" data-wow-delay="0.5s">
-              <div class="services-banner-img-container" style="background-color: #FEC52E">
-                <!-- <img src="img/service/blue-background.jpeg" alt="Car Loan" class="img-responsive service-banner-img"> -->
-                <div class="service-banner-img-text">
-                  <i class="fas fa-briefcase fa-3x"></i>
-                    <span class="service-banner-img-text--sub">Business Loan</span>
-                </div>
-                <div class="service-banner-img-text-bg"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-banner-content--even wow fadeInUp animated" data-wow-delay="0.5s">
-                <div class="services-banner-img-container" style="background-color: #25D69D">
-                  <!-- <img src="img/service/purple-background.jpeg" alt="bank Transfer" class="img-responsive service-banner-img"> -->
-                  <div class="service-banner-img-text">
-                      <i class="fas fa-university fa-3x"></i>
-                      <span class="service-banner-img-text--sub">Bank Transfer</span>
-                  </div>
-                  <div class="service-banner-img-text-bg"></div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
-    <section id="quick-links">
-        <div class="container text-center">
-          <div class="row wow fadeInUp animated quick-links-row--first">
-            <div class="col-md-12">
-              <p class="quick-links-heading"><b>Easy way of loan,</b> faster you GROW</p>
-              <p class="quick-links-sub-heading--black">We are here</p>
-              <p class="quick-links-sub-heading--blue">Borrowtree.com</p>
-            </div>
-          </div>
-          <div class="quick-links-row d-flex justify-content-center align-items-center row wow fadeInUp animated">
-            <div class="p-2">
-                <i class="fas fa-sign-in-alt fa-2x" style="background-color: #aae156;padding: 15px;border-radius: 5px;color: #fff;width: 75px; border: 5px solid #fff; box-shadow: 0 0 2px #ccc;border-radius: 50px;"></i>
-            </div>
-            <div class="p-2">
-              <div class="line"></div>
-            </div>
-            <div class="p-2">
-                <i class="fas fa-phone fa-2x" style="background-color: #F584AC;padding: 15px;border-radius: 5px;color: #fff;width: 75px;border: 5px solid #fff;box-shadow: 0 0 2px #ccc;border-radius: 50px;"></i> 
-            </div>
-            <div class="p-2">
-                <div class="line"></div>
-              </div>
-            <div class="p-2">
-                <i class="fas fa-thumbs-up fa-2x" style="background-color: #FB7E2B;padding: 15px;border-radius: 5px;color: #fff;width: 75px;border: 5px solid #fff;box-shadow: 0 0 2px #ccc;border-radius: 50px;"></i>
-            </div>
-            <div class="p-2">
-                <div class="line"></div>
-            </div>
-            <div class="p-2">
-                <i class="fas fa-money-bill-wave fa-2x" style="background-color: #3A9CED;padding: 15px;border-radius: 5px;color: #fff;width: 75px;border: 5px solid #fff;box-shadow: 0 0 2px #ccc;border-radius: 50px;"></i>
-            </div>
-          </div>
-          <div class="quick-links-row d-flex justify-content-center align-items-center row wow fadeInUp animated">
-            <div class="p-2">
-                <div class="quick-link-text">Log on<br>
-                </div>
-            </div>
-            <div class="p-2">
-                <div class="no-line"></div>
-            </div>
-            <div class="p-2">
-                <div class="quick-link-text">Get a call from our assistant<br>
-                </div> 
-            </div>
-            <div class="p-2">
-                <div class="no-line"></div>
-            </div>
-            <div class="p-2">
-                <div class="quick-link-text">Sanction approved<br>
-                </div>
-            </div>
-            <div class="p-2">
-                <div class="no-line"></div>
-            </div>
-            <div class="p-2">
-                <div class="quick-link-text">Get your money<br>
-                </div>
-            </div>
-          </div>          
-        </div>
-      </section>
+</head>
 
-    <!-- Services -->
-    <section class="bg-light" id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase wow fadeInUp animated" data-wow-delay="0.5s">How we work</h2>
-            <p class="section-description text-muted wow fadeInUp animated" data-wow-delay="0.5s">We offer tailor made loan products by our team of experts who will guide you through a safe
-                and convenient pathway. Borrowers get a perfect ambience for availing a loan within a short
-                span of time without any complication. The most significant thing is approval of loan in less
-                than 5 minutes.
-            </p>
-            <p class="section-description text-muted wow fadeInUp animated" data-wow-delay="0.5s">We won’t sit relaxed until your loan is processed smoothly and see a satisfactory smile on your
-                face. We give you the convenience of minimal documentation &amp; processing fee. We provide
-                you the freedom to choose the best loan offer among numerous best options. In order to make
-                a hassle free loan processing we systematize everything online means it is a completely
-                paperless process. Every time you login, we provide you safe and secure passage and tracking
-                of loan.
-            </p>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-3 service-col wow fadeInUp animated" data-wow-delay="0.5s">
-              <i class="fas fa-fighter-jet fa-5x" style="color:#44C9DA"></i>
-            <!-- <div class="service-col-img-container">
-                <img src="img/service/service-section/personal-loan.jpeg" class="service-col-img">
-            </div> -->
-            <h4 class="service-heading">Fast Process</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-md-3 service-col wow fadeInUp animated" data-wow-delay="0.5s">
-            <i class="fas fa-fingerprint fa-5x" style="color:#F584AC"></i>
-            <!-- <div class="service-col-img-container">
-              <img src="img/service/service-section/home-loan.jpeg" class="service-col-img">
-            </div> -->
-            <h4 class="service-heading">Secured Information</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-md-3 service-col wow fadeInUp animated" data-wow-delay="0.5s">
-              <i class="fas fa-umbrella fa-5x" style="color:#aae156"></i>
-            <!-- <div class="service-col-img-container">
-              <img src="img/service/service-section/mortgage.jpeg" class="service-col-img">
-            </div> -->
-            <h4 class="service-heading">Assurance</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-md-3 service-col wow fadeInUp animated" data-wow-delay="0.5s">
-              <i class="fas fa-user-tie fa-5x" style="color:#3A9CED"></i>
-            <!-- <div class="service-col-img-container">
-              <img src="img/service/service-section/property.jpeg" class="service-col-img">
-            </div> -->
-            <h4 class="service-heading">Loan Assistance</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+<body class="home1-page">
 
-    <section id="numbers">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-              <i class="fas fa-users fa-5x"></i>
-              <div class="quick-numbers-text">Over<br>
-                <span>10,000</span><br>
-                happy customers
-              </div> 
-          </div>
-          <div class="col-md-3">
-              <i class="fas fa-rupee-sign fa-5x"></i>
-              <div class="quick-numbers-text">Successfully completed<br>
-                <span>12,232</span><br>
-                loans
-              </div>
-          </div>
-          <div class="col-md-3">
-              <i class="fas fa-university fa-5x"></i>
-              <div class="quick-numbers-text">We have<br>
-                <span>18</span><br>
-                bank partners
-              </div>
-          </div>
-          <div class="col-md-3">
-              <i class="fas fa-tree fa-5x"></i>
-              <div class="quick-numbers-text">Planted<br>
-                <span>12,232</span><br>
-                trees, one for each loan
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!--  <video class="body-overlay" muted autoplay loop>
+        <source src="./assets/images/video1.mp4" type="video/mp4">
+    </video> -->
 
-    <!-- Portfolio Grid -->
-    <section id="partners">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase wow fadeInUp animated" data-wow-delay="0.5s">Banking Partners</h2>
-            <p class="section-description text-muted wow fadeInUp animated" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ullamcorper velit sed iaculis tristique. Etiam eget lobortis arcu. Duis et lectus quis massa maximus feugiat quis et purus.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container text-center">
-        <div class="row">
-         <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="0.5s"><div class="partners-img-content"><img src="img/partners/bank-1.png" class="img-responsive"/></div></div> 
-         <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="0.7s"><div class="partners-img-content"><img src="img/partners/bank-2.png" class="img-responsive"/></div></div>
-         <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="0.9s"><div class="partners-img-content"><img src="img/partners/bank-3.png" class="img-responsive"/></div></div>
-         <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="1.1s"><div class="partners-img-content"><img src="img/partners/bank-4.png" class="img-responsive"/></div></div>
-         <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="1.3s"><div class="partners-img-content"><img src="img/partners/bank-5.png" class="img-responsive"/></div></div>
-         <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="1.5s"><div class="partners-img-content"><img src="img/partners/bank-6.png" class="img-responsive"/></div></div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="1.7s"><div class="partners-img-content"><img src="img/partners/bank-7.png" class="img-responsive"/></div></div>
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="1.9s"><div class="partners-img-content"><img src="img/partners/bank-8.png" class="img-responsive"/></div></div>
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="2.1s"><div class="partners-img-content"><img src="img/partners/bank-9.png" class="img-responsive"/></div></div>
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="2.3s"><div class="partners-img-content"><img src="img/partners/bank-10.png" class="img-responsive"/></div></div>
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="2.5s"><div class="partners-img-content"><img src="img/partners/bank-11.png" class="img-responsive"/></div></div>
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="2.7s"><div class="partners-img-content"><img src="img/partners/bank-12.png" class="img-responsive"/></div></div>
-         </div>
-        <div class="row">
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="2.9s"><div class="partners-img-content"><img src="img/partners/bank-13.png" class="img-responsive"/></div></div>
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="3.1s"><div class="partners-img-content"><img src="img/partners/bank-14.png" class="img-responsive"/></div></div>
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="3.3s"><div class="partners-img-content"><img src="img/partners/bank-15.png" class="img-responsive"/></div></div>
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="3.5s"><div class="partners-img-content"><img src="img/partners/bank-16.png" class="img-responsive"/></div></div>
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="3.7s"><div class="partners-img-content"><img src="img/partners/bank-1.png" class="img-responsive"/></div></div> 
-          <div class="col-md-2 partners-content wow flipInX animated" data-wow-delay="3.9s"><div class="partners-img-content"><img src="img/partners/bank-2.png" class="img-responsive"/></div></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Mobile App -->
-    <section class="bg-light" id="mobile-app">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 wow fadeInLeft animated" data-wow-delay="0.5s">
-            <!-- <img src="img/app/mobileImage.png" class="img-responsive mobile-app-image"/> -->
-          </div>
-          <div class="col-md-6 text-center mobile-app-text-div">
-            <h4>Borrow Tree Mobile App</h4>
-            <p class="section-description text-center wow fadeInRight animated" data-wow-delay="0.5s" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-            <img class="play-store-button wow fadeInRight animated" src="img/app/play-store.png"  class="img-responsive"/>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    
-
-    <!-- Footer -->
-    <footer>
-
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row footer-content">
-                    <div class="col-md-4 col-lg-4">
-                        <h4>Get in touch with us</h4>
-                        <p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;+91&nbsp;9123456789, +91&nbsp;9123456789</p>
-                        <p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;contactus@borrowtree.com</p>
-                        <p><a id="partners" href="#partners" >Banking Partners</a></p>
-                        <p><a id="contactus" href="#">Contact Us</a></p>
-                        <p><a id="blog" href="#" target="_blank">Blog</a></p>
-                    </div>
-                    <div class="col-md-4 col-lg-4 text-xs-left">
-                        <h4>The Borrow Tree</h4>
-                        <p><a href="#">About Us</a></p>
-                        <p><a href="#services">How It Works?</a></p>
-                        <p><a href="#">Feedback and Complaints</a></p>
-                        <p><a href="#">Privacy Policy</a></p>
-                        <p><a href="#">Terms Of Service</a></p>
-                    </div>
-                    <div class="col-md-4 col-lg-4 text-xs-left">
-                        <h4>Follow us on</h4>
-                        <p>
-                            <a href="https://www.instagram.com/" target="_blank" title="Follow us on instagram"><i class="fab fa-instagram social-icons" aria-hidden="true"></i></a>
-                            <a href="https://twitter.com/" target="_blank" title="Follow us on twitter"><i class="fab fa-twitter social-icons" aria-hidden="true"></i></a>
-                            <a href="https://www.facebook.com/" target="_blank" title="Like us on facebook"><i class="fab fa-facebook-f social-icons" aria-hidden="true"></i></a>
-                            <a href="https://plus.google.com/" target="_blank" title="Follow us on Google+"><i class="fab fa-google-plus-g social-icons" aria-hidden="true"></i></a>
-                        </p>
-                        <!-- <a href="https://play.google.com/" target="_blank">
-                            <img style="display: block;width: 45%;" class="img-responsive" src="https://www.kyakhanahai.com/assets/v2/img/play-store.png">
-                        </a> -->
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
-      <div class="container-fluid footer-bottom">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Borrow Tree 2018</span>
-          </div>
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Borrow Tree Pvt. Ltd.</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!--Login Modal -->
-  <div class="modal fade" id="loginModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Login</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" class="form-control" id="email">
-            </div>
-            <div class="form-group">
-              <label for="pwd">Password:</label>
-              <input type="password" class="form-control" id="pwd">
-            </div>
-            
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-default btn-primary">Submit</button>
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
+    <!-- Preloader -->
+    <div class="page-loader">
+        <div class="bounceball"></div>
     </div>
-  </div>
 
-    <!-- Bootstrap core JavaScript -->
+    <span class="icon-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
 
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Side Menu Bar -->
+    <div class="responsive-sidebar-menu">
+        <div class="overlay"></div>
+        <div class="sidebar-menu-inner">
+            <div class="menu-wrap">
+                <p>Menu</p>
+                <ul class="menu scroll-nav-responsive d-flex">
+                    <li>
+                        <a class="scroll-to" href="#home">
+                            <i class="las la-home"></i> <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#about">
+                            <i class="lar la-user"></i> <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#resume">
+                            <i class="las la-briefcase"></i> <span>Experience</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#portfolio">
+                            <i class="las la-grip-vertical"></i> <span>Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#contact">
+                            <i class="las la-envelope"></i> <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+            <div class="sidebar-social">
+                <p>Social</p>
+                <ul class="social-links d-flex align-items-center">
+                    <li>
+                        <a href="https://www.linkedin.com/in/vijayprsingh/" target="_blank"><i
+                                class="lab la-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/vijay114" target="_blank"><i class="lab la-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/vijaypratpsingh"><i class="lab la-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/vz_vijay/" target="_blank"><i
+                                class="lab la-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/vijaypratapsinghjadoun" target="_blank"><i
+                                class="lab la-facebook"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-    <!-- Wow Animation -->
-    <script src="vendor/wow/wow.min.js"></script>
+    <ul class="menu scroll-nav d-flex">
+        <li>
+            <a class="scroll-to" href="#home">
+                <span>Home</span> <i class="las la-home"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#about">
+                <span>About</span> <i class="lar la-user"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#resume">
+                <span>Experience</span> <i class="las la-briefcase"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#portfolio">
+                <span>Projects</span> <i class="las la-grip-vertical"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#contact">
+                <span>Contact</span> <i class="las la-envelope"></i>
+            </a>
+        </li>
+    </ul>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.js"></script>
+    <div class="left-sidebar">
+        <div class="sidebar-header d-flex align-items-center justify-content-between">
+            <h1>Vijay</h1>
+            <span class="designation">Software Engineering Specialist</span>
+        </div>
+        <img class="me" src="./assets/images/me2.png" alt="Me">
+        <!-- <h6 class="email">vijaypratapsingh114@gmail.com</h6> -->
+        <h2 class="address">Based in Dubai, UAE</h2>
+        <p class="copyright">&copy; 2023 Vijay. All Rights Reserved</p>
+        <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+            <li>
+                <a href="https://www.linkedin.com/in/vijayprsingh/" target="_blank"><i class="lab la-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/vijay114" target="_blank"><i class="lab la-github"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/vijaypratpsingh"><i class="lab la-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/vz_vijay/" target="_blank"><i class="lab la-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/vijaypratapsinghjadoun" target="_blank"><i
+                        class="lab la-facebook"></i></a>
+            </li>
+        </ul>
+        <a href="./assets/files/resume.pdf" target="_blank" class="theme-btn">
+            <i class="las la-file"></i> Get Resume
+        </a>
+    </div>
+    <!-- Main Section -->
+    <main class="drake-main">
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
 
-    <!-- Application JS -->
-    <script src="js/script.js"></script>
+                <div class="left-sidebar">
+                    <div class="sidebar-header d-flex align-items-center justify-content-between">
+                        <h1>Vijay</h1>
+                        <span class="designation">Software Engineering Specialist</span>
+                    </div>
+                    <img class="me" src="./assets/images/me2.png" alt="Me">
+                    <!-- <h2 class="email">hello@drake.design</h2> -->
+                    <h2 class="address">Based in Dubai, UAE</h2>
+                    <p class="copyright">&copy; 2023 Vijay. All Rights Reserved</p>
+                    <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+                        <li>
+                            <a href=""><i class="lab la-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="lab la-github"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="lab la-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="lab la-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="lab la-facebook"></i></a>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="theme-btn">
+                        Drop a &nbsp;<i class="las la-envelope"></i>
+                    </a>
+                </div>
 
-  </body>
+                <!-- Hero Section -->
+                <section class="hero-section page-section scroll-to-page" id="home">
+
+                    <div class="custom-container">
+                        <div class="hero-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-home"></i> Introduction
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom"><span>Vijay Pratap
+                                        Singh</span>, Software Engineering Specialist</h1>
+                                <h2></h2>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">I am always looking for the
+                                next technological challenge to beat. If you have one, reach out!
+
+                            </p>
+                            <a href="#portfolio" class="go-to-project-btn scroll-to scroll-animation"
+                                data-animation="rotate_up">
+                                <img src="./assets/images/round-text.png" alt="Rounded Text">
+                                <i class="las la-arrow-down"></i>
+                            </a>
+
+                            <div class="facts d-flex">
+                                <div class="left scroll-animation" data-animation="fade_from_left">
+                                    <h1>10+</h1>
+                                    <p>Years of <br>Experience</p>
+                                </div>
+                                <div class="right scroll-animation" data-animation="fade_from_right">
+                                    <h1>8</h1>
+                                    <p>Lifetime projects for<br>4 organisations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- About Section -->
+                <section class="about-area page-section scroll-to-page" id="about">
+                    <div class="custom-container">
+                        <div class="about-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="lar la-user"></i> About
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Software Professional
+                                    with Expertise in <span>Developing and Designing</span> Applications<br>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">I have strong background in
+                                developing and designing applications using a range of technologies such as Java, Spring
+                                Boot, Solidity, NodeJS, React, Ionic, and more.</p>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">Furthermore, I have proven my
+                                ability to lead software development teams and deliver end-to-end solutions that meet
+                                business requirements.</p>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">Through my work, I have
+                                demonstrated my ability to develop software solutions that help
+                                businesses achieve their operational and strategic goals through rapid deployment of
+                                end-to-end functionality to serve the customer</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Resume Section -->
+                <section class="resume-area page-section scroll-to-page" id="resume">
+                    <div class="custom-container">
+                        <div class="resume-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-briefcase"></i> Resume
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Education &
+                                    <span>Experience</span>
+                                </h1>
+                            </div>
+
+                            <div class="resume-timeline">
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Dec 2021 - Present</span>
+                                    <h2>Software Engineering Specialist</h2>
+                                    <p>Blockchain Commodities DMCC<br>Dubai, UAE</p>
+
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Dec 2017 - Dec 2021</span>
+                                    <h2>Staff Software Engineer</h2>
+                                    <p>GE Healthcare<br>Bengaluru, India</p>
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Jun 2016 - Nov 2017</span>
+                                    <h2>Founding Member and Technical Specialist</h2>
+                                    <p>IdeaApplied Technologies Private Limited<br>Bengaluru, India</p>
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Aug 2012 - Jun 2016</span>
+                                    <h2>Senior Software Developer</h2>
+                                    <p>Razorfish<br>Bengaluru, India</p>
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">June 2008 - July 2012</span>
+                                    <h2>Bachelor of Technology - Information Technologies</h2>
+                                    <p>Mangalayatan University<br>Aligarh, India</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Portfolio Section -->
+                <section class="portfolio-area page-section scroll-to-page" id="portfolio">
+                    <div class="custom-container">
+                        <div class="portfolio-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-grip-vertical"></i> portfolio
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Lifetime
+                                    <span>Projects</span>
+                                </h1>
+                            </div>
+
+                            <div class="row portfolio-items">
+                                <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-full">
+                                        <div class="portfolio-item-inner">
+                                            <a href="https://riverex.io/" target="_blank">
+                                                <img src="./assets/images/riverex.png" alt="Portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">Java</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Spring Boot</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Solidity</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">EVM</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">TRON</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Blockchain</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">ReactJS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">MongoDB</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">PostgreSQL</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><span>Riverex</span> by Blockchain Commodities</h2>
+                                        <p>A decentralized exchange that enables users to exchange cryptocurrencies in a
+                                            non-custodial manner. Individuals can swap tokens over cross-chain, invest
+                                            in Liquidity pools, and swap against pools. The platform also features chats
+                                            where traders can chat and look for peers who are interested in doing swap.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="https://vscan.rocks/" target="_blank">
+                                                <img src="./assets/images/gehealthcare.png" alt="Portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">Java</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Spring Boot</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Hybris</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">SAP</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">MySQL</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><span>Equipment eCommerce</span> by GE Healthcare</h2>
+                                        <p>An eCommerce platform where healthcare personnel like Doctors, Hospital staff
+                                            can order medical equipment online. This application is catering to the need
+                                            of Medical professionals in over 32+ countries.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="https://payment.gehealthcare.com/" target="_blank">
+                                                <img src="./assets/images/payment-engine.png" alt="Portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">Java</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Spring Boot</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Hybris</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">JavaScript</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">ReactJS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">SAP</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">MySQL</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><span>Payment Engine</span> by GE Healthcare</h2>
+                                        <p>Payment Engine application for internal GE usage, that could register credit
+                                            cards and make payments through multiple payment service providers,
+                                            integrate into any GE Platform for making payments, pass level 2, and 3 data
+                                            to save around 1.5% on every transaction.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="https://apps.apple.com/ae/app/fan-studio/id1591889750" target="_blank">
+                                                <img src="./assets/images/iot-on-demand.png" alt="portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">Angular</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Ionic</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Java</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Spring Boot</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">MySQL</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><span>Fan Studio</span> by IoTOnDemand</a></h2>
+                                        <p>A mobile application that can connect with a smart fan and allows its users
+                                            to control it through various commands. The application also enables its
+                                            users to establish a connection with smart devices like Alexa.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="./assets/images/kya-khana-hai.png" data-lightbox="example-1">
+                                                <img src="./assets/images/kya-khana-hai.png" alt="portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">Angular</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Ionic</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Java</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Spring Boot</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">MySQL</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><span>KyaKhanaHai.com</span> by Ideaapplied</a></h2>
+                                        <p>A subscription-based food delivery system where individuals can choose from
+                                            different food menu. At the backend of this system lies a menu generation
+                                            system that would develop a food menu for an entire week based on the raw
+                                            materials and vegetables available in the inventory.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="https://www.mydeposits.co.uk/" target="_blank">
+                                                <img src="./assets/images/mydeposits.png" alt="Portfolio">
+                                            </a>
+
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">Java</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Spring</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Hybris</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">SAP</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">MySQL</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><span>MyDeposits</span> @ Razorfish</a></h2>
+                                        <p>This application allows users to buy tenancy schemes as per the UK government
+                                            law. Landlords, Tenants and even Agents can manage the tenancy schemes.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="https://www.razorfish.com/" target="_blank">
+                                                <img src="./assets/images/razorfish.png" alt="Portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">Java</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Hippo CMS</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><span>Razorfish.com</span></h2>
+                                        <p>Razorfish's main website, which provides all the information about the
+                                            organization. The content of this application is managed through Java-based
+                                            CMS.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="https://www.farmfreshtoyou.com/" target="_blank">
+                                                <img src="./assets/images/farm-fresh-to-you.png" alt="portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">Groovy on Grails</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Bootstrap</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">JavaScript</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">MySQL</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><span>Farm Fresh To You</span> @ Razorfish</h2>
+                                        <p>This application delivers fresh fruits and vegetables from farms to platform
+                                            users. At the back of this system lies a complex ERP system to manage
+                                            inventories and generate everyday orders.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Testimonial Section -->
+                <!-- <section class="testimonial-area page-section scroll-to-page" id="testimonial">
+                    <div class="custom-container">
+                        <div class="testimonial-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="lar la-comment"></i> testimonial
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Trusted by <span>Hundered
+                                        Clients</span></h1>
+                            </div>
+
+                            <div class="testimonial-slider-wrap scroll-animation" data-animation="fade_from_bottom">
+                                <div class="owl-carousel testimonial-slider owl-theme">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="./assets/images/testimonial-1.jpg" alt="portfolio">
+                                                <div class="right">
+                                                    <h3>Paublo Dybala</h3>
+                                                    <p class="designation">CEO of <span>IBM Global</span></p>
+                                                </div>
+                                            </div>
+                                            <p>“Drake - A Developer with the creativity, professional and
+                                                master of code. Much more than what i'm expect.
+                                                High quality product & flexiable price. Recommended!.”</p>
+
+                                            <a href="" class="project-btn">Project</a>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="./assets/images/testimonial-2.jpg" alt="portfolio">
+                                                <div class="right">
+                                                    <h3>Christina Morillo</h3>
+                                                    <p class="designation">Product Management of <span>Invision App
+                                                            Inc</span></p>
+                                                </div>
+                                            </div>
+                                            <p>“Drake was a real pleasure to work with and we look
+                                                forward to working with him again. He's definitely the kind of
+                                                designer that you can trust with any project from A-Z.”</p>
+
+                                            <a href="" class="project-btn">Project</a>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="./assets/images/testimonial-3.jpg" alt="portfolio">
+                                                <div class="right">
+                                                    <h3>Phil Foden</h3>
+                                                    <p class="designation">Director of <span>Envato LLC</span></p>
+                                                </div>
+                                            </div>
+                                            <p>“Extremely profressional and fast service!. Drake is a master
+                                                of code and he also very creative. We done 3 projects with
+                                                him and certain will continue.”</p>
+
+                                            <a href="" class="project-btn">Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-footer-nav">
+                                    <div class="testimonial-nav d-flex align-items-center">
+                                        <button class="prev"><i class="las la-angle-left"></i></button>
+                                        <div id="testimonial-slide-count"></div>
+                                        <button class="next"><i class="las la-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="clients-logos">
+                                <h4 class="scroll-animation" data-animation="fade_from_bottom">work with 60+ brands
+                                    worldwide</h4>
+                                <div class="row align-items-center">
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                        <img src="./assets/images/client-1.png" alt="client">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                        <img src="./assets/images/client-2.png" alt="client">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                        <img src="./assets/images/client-3.png" alt="client">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                        <img src="./assets/images/client-4.png" alt="client">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                        <img src="./assets/images/client-5.png" alt="client">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                        <img src="./assets/images/client-6.png" alt="client">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                        <img src="./assets/images/client-7.png" alt="client">
+                                    </div>
+                                    <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                        <img src="./assets/images/client-8.png" alt="client">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section> -->
+
+                <!-- Pricing Section -->
+                <!-- <section class="pricing-area page-section scroll-to-page" id="pricing">
+                    <div class="custom-container">
+                        <div class="pricing-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-dollar-sign"></i> pricing
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Pricing</span>
+                                </h1>
+                            </div>
+
+                            <div class="pricing-table-items">
+                                <div class="row">
+                                    <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                        <div class="pricing-table">
+                                            <div class="pricing-table-header">
+                                                <div class="top d-flex justify-content-between align-items-start">
+                                                    <h4>basic</h4>
+                                                    <p class="text-right">Have design ready to build?<br>
+                                                        or small budget</p>
+                                                </div>
+                                                <h1>$49 <span>/ hours</span></h1>
+                                            </div>
+                                            <ul class="feature-lists">
+                                                <li>Need your wireframe</li>
+                                                <li>Design with Figma, Framer</li>
+                                                <li>Implement with Webflow, React, WordPress, Laravel/PHP</li>
+                                                <li>Remote/Online</li>
+                                                <li>Work in business days, no weekend.</li>
+                                                <li>Support 6 months</li>
+                                            </ul>
+                                            <a href="" class="theme-btn">pick this package</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
+                                        <div class="pricing-table">
+                                            <div class="pricing-table-header">
+                                                <div class="top d-flex justify-content-between align-items-start">
+                                                    <h4>premium</h4>
+                                                    <p class="text-right">Not have any design?<br>
+                                                        Leave its for me</p>
+                                                </div>
+                                                <h1>$99 <span>/ hours</span></h1>
+                                            </div>
+                                            <ul class="feature-lists">
+                                                <li>Don't need wireframe or anything</li>
+                                                <li>Design with Figma, Framer from scratch</li>
+                                                <li>Implement with Webflow, React, WordPress, Laravel/PHP</li>
+                                                <li>Remote/Online</li>
+                                                <li>Work with both weekend</li>
+                                                <li>Support 12 months</li>
+                                                <li>Your project alway be priority</li>
+                                                <li>Customer care gifts</li>
+                                            </ul>
+                                            <a href="" class="theme-btn">pick this package</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="info scroll-animation" data-animation="fade_from_bottom">
+                                    Don't find any package match with your plan!<br>
+                                    Want to setup a new tailor-made package for only you?. <a href="">Contact Us</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section> -->
+
+                <!-- Contact Section -->
+                <section class="contact-area page-section scroll-content" id="contact">
+                    <div class="custom-container">
+                        <div class="contact-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-dollar-sign"></i> contact
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Have a technical
+                                    <span>problem?</span>
+                                </h1>
+                            </div>
+                            <h3 class="scroll-animation" data-animation="fade_from_bottom">vijaypratapsingh114@gmail.com
+                            </h3>
+                            <p id="required-msg">* Marked fields are required to fill.</p>
+
+                            <form class="contact-form scroll-animation" data-animation="fade_from_bottom" method="POST"
+                                action="mailer.php">
+                                <div class="alert alert-success messenger-box-contact__msg" style="display: none"
+                                    role="alert">
+                                    Your message was sent successfully.
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="full-name">full Name <sup>*</sup></label>
+                                            <input type="text" name="full-name" id="full-name"
+                                                placeholder="Your Full Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="email">Email <sup>*</sup></label>
+                                            <input type="email" name="email" id="email" placeholder="Your email adress">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="phone-number">phone <span>(optional)</span></label>
+                                            <input type="text" name="phone-number" id="phone-number"
+                                                placeholder="Your number phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="subject">subject <sup>*</sup></label>
+                                            <input type="text" name="subject" id="subject"
+                                                placeholder="What is this about?">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <label for="message">message <sup>*</sup></label>
+                                            <textarea name="message" id="message"
+                                                placeholder="Wrire your message here ..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group submit-btn-wrap">
+                                            <button class="theme-btn" name="submit" type="submit" id="submit-form">send
+                                                message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/owl.carousel.js"></script>
+    <script src="./assets/js/gsap.min.js"></script>
+    <script src="./assets/js/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/ScrollToPlugin.min.js"></script>
+    <script src="./assets/js/lightbox.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/ajax-form.js"></script>
+</body>
 
 </html>
